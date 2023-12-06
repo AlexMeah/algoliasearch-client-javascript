@@ -2156,6 +2156,11 @@
   resolved "https://registry.yarnpkg.com/@types/argparse/-/argparse-1.0.33.tgz#2728669427cdd74a99e53c9f457ca2866a37c52d"
   integrity sha512-VQgHxyPMTj3hIlq9SY1mctqx+Jj8kpQfoLvDlVSDNOyuYs8JYfkuY3OW/4+dO657yPmNhHpePRx0/Tje5ImNVQ==
 
+"@types/atob-lite@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/atob-lite/-/atob-lite-2.0.2.tgz#68f8665901e00f11a1446fd6967a55fbf9126c7d"
+  integrity sha512-BbCDWqZzlBBq8czVNYPiQNnHPrdPmR1mcyv3c8autpLEDmBMJY4hjziedi4RlXC+jnquD6Ba/yFU6bboZ3ZKVA==
+
 "@types/babel__core@^7.1.0":
   version "7.1.6"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.6.tgz#16ff42a5ae203c9af1c6e190ed1f30f83207b610"
@@ -2937,7 +2942,7 @@ asynckit@^0.4.0:
 atob-lite@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/atob-lite/-/atob-lite-2.0.0.tgz#0fef5ad46f1bd7a8502c65727f0367d5ee43d696"
-  integrity sha1-D+9a1G8b16hQLGVyfwNn1e5D1pY=
+  integrity sha512-LEeSAWeh2Gfa2FtlQE1shxQ8zi5F9GHarrGKz08TMdODD5T4eH6BMsvtnhbWZ+XQn+Gb6om/917ucvRu7l7ukw==
 
 atob@^2.1.2:
   version "2.1.2"

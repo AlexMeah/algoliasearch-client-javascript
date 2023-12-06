@@ -96,6 +96,7 @@ import {
   GetObjectsOptions,
   GetObjectsResponse,
   getRule,
+  getSecuredApiKeyRemainingValidity,
   getSettings,
   getSynonym,
   getTopUserIDs,
@@ -275,6 +276,7 @@ export default function algoliasearch(
       setDictionarySettings,
       waitAppTask,
       customRequest,
+      getSecuredApiKeyRemainingValidity,
       initIndex: base => (indexName: string): SearchIndex => {
         return initIndex(base)(indexName, {
           methods: {

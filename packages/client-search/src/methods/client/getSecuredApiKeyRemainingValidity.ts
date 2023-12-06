@@ -1,8 +1,10 @@
+import atob from 'atob-lite';
+
 import { createValidUntilNotFoundError } from '../..';
 
 export const getSecuredApiKeyRemainingValidity = () => {
   return (securedApiKey: string): number => {
-    const decodedString = Buffer.from(securedApiKey, 'base64').toString('ascii');
+    const decodedString = atob(securedApiKey);
     const regex = /validUntil=(\d+)/;
     const match = decodedString.match(regex);
 
